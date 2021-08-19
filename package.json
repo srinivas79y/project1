@@ -1,0 +1,17 @@
+{
+    "name": "nutritionrestapp",
+    "version": "1.0.0",
+    "description": "rest api",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "author": "srinivas",
+    "license": "ISC",
+    "dependencies": {
+      "@hapi/joi": "^17.1.1",
+      "debug": "4.1.1",
+      "express": "^4.17.1",
+      "nodemon": "^2.0.2"
+    }
+  }
