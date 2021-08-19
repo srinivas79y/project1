@@ -13,6 +13,19 @@ const db = require("./db.js");
 const dbName = "Nutrition";
 const collectionName = "ProductDesc";
 
+
+
+server.get("/productInfo2", (request, response) => {
+   
+        response.json({
+
+            "name": "Srinivas"
+
+        }
+            );
+   
+});
+
 db.initialize(dbName, collectionName, function(dbCollection) { // successCallback
     // get all items
     dbCollection.find().toArray(function(err, result) {
