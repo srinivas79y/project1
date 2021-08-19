@@ -30,7 +30,7 @@ db.initialize(dbName, collectionName, function(dbCollection) { // successCallbac
     // get all items
     dbCollection.find().toArray(function(err, result) {
         if (err) throw err;
-          console.log(result);
+         
     });
 
     server.get("/productInfo", (request, response) => {
