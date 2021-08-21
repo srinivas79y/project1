@@ -1,0 +1,551 @@
+.u-section-1-1 {
+    background-image: url("images/cardio.jpg");
+    background-position: 50% 50%;
+}
+
+.u-section-1-1 .u-sheet-1 {
+    min-height: 800px;
+}
+
+.u-section-1-1 .u-text-1 {
+    font-size: 6rem;
+    font-weight: 700;
+    margin: 453px 317px 0 375px;
+}
+
+.u-section-1-1 .u-text-2 {
+    margin: -94px 56px 0;
+}
+
+.u-section-1-1 .u-btn-1 {
+    background-image: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 40px auto 60px;
+}
+
+@media (max-width: 1199px) {
+    .u-section-1-1 .u-sheet-1 {
+        min-height: 660px;
+    }
+    .u-section-1-1 .u-text-1 {
+        margin-left: 275px;
+        margin-right: 217px;
+    }
+    .u-section-1-1 .u-text-2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-1-1 .u-sheet-1 {
+        min-height: 506px;
+    }
+    .u-section-1-1 .u-text-1 {
+        margin-left: 165px;
+        margin-right: 107px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-1-1 .u-sheet-1 {
+        min-height: 380px;
+    }
+    .u-section-1-1 .u-text-1 {
+        margin-left: 75px;
+        margin-right: 17px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-1-1 .u-sheet-1 {
+        min-height: 239px;
+    }
+    .u-section-1-1 .u-text-1 {
+        font-size: 3.75rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.u-block-61a7-2 {
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+    height: auto;
+}
+
+.u-block-61a7-3 {
+    position: absolute;
+    left: 0;
+    width: 85px;
+    height: 85px;
+    background-image: none;
+}
+
+.u-block-61a7-4 {
+    position: absolute;
+    right: 0;
+    width: 85px;
+    height: 85px;
+    background-image: none;
+}
+
+.u-section-2 {
+    background-image: linear-gradient(#478ac9, #db545a);
+}
+
+.u-section-2 .u-sheet-1 {
+    min-height: 50vw;
+}
+
+.u-section-2 .u-video-1 {
+    height: 500px;
+    width: 1140px;
+    margin: 49px -21px 60px auto;
+}
+
+.u-section-2 .embed-responsive-1 {
+    position: absolute;
+    width: 178%;
+    left: -39%;
+    height: 178%;
+    top: -39%;
+}
+
+.u-section-2 .u-video-poster-1 {
+    width: 56%;
+    left: 22%;
+    height: 56%;
+    top: 22%;
+    background-image: url(images/in.jpg);
+}
+
+@media (max-width: 1199px) {
+    .u-section-2 .u-video-1 {
+        width: 940px;
+        margin-right: 0;
+    }
+    .u-section-2 .embed-responsive-1 {
+        height: 222px;
+    }
+    .u-section-2 .u-video-poster-1 {
+        width: 38%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 504px;
+    }
+    .u-section-2 .u-video-1 {
+        height: 404px;
+        width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 5px;
+    }
+    .u-section-2 .u-video-1 {
+        height: 310px;
+        width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-2 .u-sheet-1 {
+        min-height: 0;
+    }
+    .u-section-2 .u-video-1 {
+        height: 200px;
+        width: 340px;
+    }
+    .u-section-2 .embed-responsive-1 {
+        width: 261%;
+        left: -81%;
+        top: 0%;
+    }
+}
+
+.u-section-3 {
+    background-image: none;
+}
+
+.u-section-3 .u-sheet-1 {
+    min-height: 53px;
+}
+
+.u-section-3 .u-text-1 {
+    font-weight: 900;
+    margin: 1px 20px;
+}
+
+@media (max-width: 1199px) {
+    .u-section-3 .u-text-1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.u-section-4 {
+    background-image: linear-gradient(#478ac9, #db545a);
+}
+
+.u-section-4 .u-sheet-1 {
+    min-height: 622px;
+}
+
+.u-section-4 .u-blog-1 {
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+
+.u-section-4 .u-repeater-1 {
+    grid-auto-columns: calc(50% - 5px);
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    grid-gap: 10px 10px;
+    min-height: 595px;
+}
+
+.u-section-4 .u-container-layout-1 {
+    padding: 0 0 19px 13px;
+}
+
+.u-section-4 .u-image-1 {
+    height: 407px;
+    width: 505px;
+    box-shadow: -2px -2px 8px 0 rgba(128, 128, 128, 1);
+    animation-duration: 1000ms;
+    margin: 70px auto 0 0;
+}
+
+.u-section-4 .u-btn-1 {
+    background-image: none;
+    border-style: none none solid;
+    margin: 13px auto 0 30px;
+    padding: 0;
+}
+
+.u-section-4 .u-container-layout-2 {
+    padding: 0 0 19px 13px;
+}
+
+.u-section-4 .u-image-2 {
+    height: 407px;
+    width: 505px;
+    box-shadow: -2px -2px 8px 0 rgba(128, 128, 128, 1);
+    animation-duration: 1000ms;
+    margin: 70px auto 0 0;
+}
+
+.u-section-4 .u-btn-2 {
+    background-image: none;
+    border-style: none none solid;
+    margin: 13px auto 0 30px;
+    padding: 0;
+}
+
+@media (max-width: 1199px) {
+    .u-section-4 .u-sheet-1 {
+        min-height: 526px;
+    }
+    .u-section-4 .u-blog-1 {
+        height: auto;
+    }
+    .u-section-4 .u-btn-1 {
+        margin-left: 0;
+    }
+    .u-section-4 .u-btn-2 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-4 .u-repeater-1 {
+        grid-auto-columns: 100%;
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-4 .u-container-layout-1 {
+        padding-left: 10px;
+    }
+    .u-section-4 .u-container-layout-2 {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-4 .u-image-1 {
+        height: 266px;
+        width: 330px;
+    }
+    .u-section-4 .u-image-2 {
+        height: 266px;
+        width: 330px;
+    }
+}
+
+.u-section-5 {
+    background-image: linear-gradient(#478ac9, #db545a);
+}
+
+.u-section-5 .u-sheet-1 {
+    min-height: 682px;
+}
+
+.u-section-5 .u-list-1 {
+    width: 1140px;
+    grid-template-rows: auto;
+    margin: 46px 0 0 auto;
+}
+
+.u-section-5 .u-repeater-1 {
+    grid-auto-columns: calc(33.3333% - 6.66667px);
+    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+    grid-gap: 10px 10px;
+    min-height: 375px;
+}
+
+.u-section-5 .u-image-1 {
+    background-image: url("images/cardioworkoutblog1.jpg");
+    background-position: 50% 50%;
+    animation-duration: 1500ms;
+}
+
+.u-section-5 .u-container-layout-1 {
+    padding: 30px;
+}
+
+.u-section-5 .u-image-2 {
+    background-image: url("images/cardioworkoutblog2.jpeg");
+    background-position: 50% 50%;
+    animation-duration: 1500ms;
+}
+
+.u-section-5 .u-container-layout-2 {
+    padding: 30px;
+}
+
+.u-section-5 .u-image-3 {
+    background-image: url("images/cardioworkoutblog3.jpeg");
+    background-position: 50% 50%;
+    animation-duration: 1500ms;
+}
+
+.u-section-5 .u-container-layout-3 {
+    padding: 30px;
+}
+
+.u-section-5 .u-text-1 {
+    width: 313px;
+    margin: 52px auto 0;
+}
+
+.u-section-5 .u-text-2 {
+    margin: -43px 0 0 827px;
+}
+
+.u-section-5 .u-text-3 {
+    margin: -36px 791px 0 36px;
+}
+
+.u-section-5 .u-text-4 {
+    margin: 42px 827px 0 0;
+}
+
+.u-section-5 .u-text-5 {
+    margin: -62px 435px 0 392px;
+}
+
+.u-section-5 .u-text-6 {
+    margin: -76px 0 60px 827px;
+}
+
+.u-section-5 .u-btn-1 {
+    background-image: none;
+    padding: 0;
+}
+
+@media (max-width: 1199px) {
+    .u-section-5 .u-list-1 {
+        width: 940px;
+    }
+    .u-section-5 .u-text-2 {
+        margin-left: 727px;
+    }
+    .u-section-5 .u-text-3 {
+        margin-right: 627px;
+        margin-left: 0;
+    }
+    .u-section-5 .u-text-4 {
+        margin-right: 627px;
+    }
+    .u-section-5 .u-text-5 {
+        width: 313px;
+        margin-left: 292px;
+        margin-right: 335px;
+    }
+    .u-section-5 .u-text-6 {
+        margin-left: 727px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-5 .u-list-1 {
+        width: 720px;
+    }
+    .u-section-5 .u-repeater-1 {
+        grid-auto-columns: calc(50% - 5px);
+        grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    }
+    .u-section-5 .u-text-2 {
+        margin-left: 507px;
+    }
+    .u-section-5 .u-text-3 {
+        margin-right: 407px;
+    }
+    .u-section-5 .u-text-4 {
+        margin-right: 407px;
+    }
+    .u-section-5 .u-text-5 {
+        margin-left: 182px;
+        margin-right: 225px;
+    }
+    .u-section-5 .u-text-6 {
+        margin-left: 507px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-5 .u-list-1 {
+        width: 540px;
+    }
+    .u-section-5 .u-repeater-1 {
+        grid-auto-columns: 100%;
+        grid-template-columns: 100%;
+    }
+    .u-section-5 .u-text-2 {
+        margin-left: 327px;
+    }
+    .u-section-5 .u-text-3 {
+        margin-right: 227px;
+    }
+    .u-section-5 .u-text-4 {
+        margin-right: 227px;
+    }
+    .u-section-5 .u-text-5 {
+        margin-left: 92px;
+        margin-right: 135px;
+    }
+    .u-section-5 .u-text-6 {
+        margin-left: 327px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-5 .u-list-1 {
+        width: 340px;
+    }
+    .u-section-5 .u-text-2 {
+        margin-left: 127px;
+    }
+    .u-section-5 .u-text-3 {
+        margin-right: 27px;
+    }
+    .u-section-5 .u-text-4 {
+        margin-right: 27px;
+    }
+    .u-section-5 .u-text-5 {
+        margin-left: 0;
+        margin-right: 27px;
+    }
+    .u-section-5 .u-text-6 {
+        margin-left: 127px;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: darkblue;
+}
+
+.footer>* {
+    flex: 1 100%;
+}
+
+.l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.r-footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.r-footer>* {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    color: #999;
+}
+
+.h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+
+.l-footer p {
+    padding-right: 20%;
+    color: #999;
+}
+
+@media screen and (min-width: 600px) {
+    .r-footer>* {
+        flex: 1;
+    }
+    .features {
+        flex-grow: 2;
+    }
+    .l-footer {
+        flex: 1 0px;
+    }
+    .r-footer {
+        flex: 2 0px;
+    }
+}
