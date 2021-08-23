@@ -475,7 +475,7 @@
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
-    background-color: darkblue;
+    background-color: #8383a3;
 }
 
 .footer>* {
@@ -516,7 +516,7 @@ h2 {
 }
 
 .box a {
-    color: #999;
+    color: #f1f1f1;
 }
 
 .h-box {
@@ -526,13 +526,13 @@ h2 {
 
 .b-footer {
     text-align: center;
-    color: #999;
+    color: #f1f1f1;
     padding-top: 50px;
 }
 
 .l-footer p {
     padding-right: 20%;
-    color: #999;
+    color: #f1f1f1;
 }
 
 @media screen and (min-width: 600px) {
