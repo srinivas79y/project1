@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl Millet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body style="background-color:#8383a3;">
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo"><a href="#"></a></div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="../mainpage web dev/mainpage.html">HOME</a></li>
+        <li><a href="/">NUTRITION</a></li>
+        <li><a href="../fitnessandmeditation/fitnesss.html.html">FITNESS</a></li>
+        <li><a href="../yogapage/mohannew.html">YOGA</a></li>
+        <li><a href="../team-page-html/index.html">ABOUT US</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="banner"></div>
+  <div class="about">
+ <div class="content">
+      <div class="title">PEARL MILLET</div>
+
+    </div>
+  </div>
+  
+  
+
+
+
+
+  <div class="container">
+       
+            <div class="box">
+              <h2 style="color:#4cf6e8;">DESCRIPTION</h2>
+              <p id="description"></p>
+ 
+
+
+
+              <h2 style="color:#4cf6e8;">BENEFITS</h2>
+              
+              <p id="benefits"></p>
+
+
+
+              <h2 style="color:hsl(197, 90%, 63%);">CULTIVATION</h2>
+              <p id="cultivation"></p>
+
+
+              
+              <h2 style="color:#4cf6e8;">RECIPE</h2>
+              <section class=image>
+                <figure class="figure">
+                  <img src="images/Bajrarecipe.jpg" class="figure-img img-fluid rounded" alt="...">
+                  
+                </figure>
+               
+              </section>
+              <p id="recipes"></p>
+              
+              <h2 style="color:#4cf6e8;"> HISTORY</h2>
+              <p id="history"></p>
+              <hr color=black style="width: 100%">
+                            <footer class="footer">
+                              <div class="l-footer">
+                              <h1>
+                              <img src="logo_1_5.png" alt=""></h1>
+                              <p>
+                                THIS IS AN OPPORTUNITY FOR US TO MAKE YOU AWARE OF YOURSELF AND HEAL YOU FROM THE INSIDE OUT.</p>
+                              </div>
+                              <ul class="r-footer">
+                              <li>
+                                <h2>
+                              Social</h2>
+                              <ul class="box">
+                              <li><a href="#">Facebook</a></li>
+                              <li><a href="#">Twitter</a></li>
+                            
+                              </ul>
+                              </li>
+                              <li class="features">
+                                <h2>
+                              Navigate through our webapp</h2>
+                              <ul class="box h-box">
+                              <li><a href="../index.html">Nutrition Page</a></li>
+                              <li><a href="../fitnessandmeditation/fitnesss.html.html">Fitness Page</a></li>
+                              <li><a href="../fitnessandmeditation/meditation.html.html">Meditation Page</a></li>
+                              <li><a href="../yogapage/mohannew.html">Yoga page</a></li>
+                              
+                              </ul>
+                              </li>
+                              <li>
+                                <h2>
+                              ABOUT US</h2>
+                              <ul class="box">
+                              <li><a href="../team-page-html/index.html">Our team</a></li>
+                              
+                              <li><a href="https://aacgriet.com/">Conditions</a></li>
+                              </ul>
+                              </li>
+                              </ul>
+                              <div class="b-footer">
+                              <p>
+                              All rights reserved by ©AAC 2070 </p>
+                              </div>
+                              </footer>
+                            
+            </div>
+       </div>
+   </div>
+
+  
+
+
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menu = document.querySelector(".menu-list");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      menu.classList.add("active");
+      menuBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+      body.classList.add("disabledScroll");
+    }
+    cancelBtn.onclick = ()=>{
+      menu.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      body.classList.remove("disabledScroll");
+    }
+
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+
+    window.addEventListener("load", function () {
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            const myObj  =  JSON.parse(this.responseText);
+    
+
+            console.log(myObj)
+
+            document.getElementById("description").innerHTML = myObj.description
+             // declare local paragraph array container
+             
+             document.getElementById("benefits").innerHTML = myObj.benefits
+             
+             document.getElementById("cultivation").innerHTML = myObj.cultivation
+
+             document.getElementById("recipes").innerHTML = myObj.recipes
+
+             document.getElementById("history").innerHTML = myObj.history
+
+
+             
+             
+
+
+
+            //store
+
+            }
+        
+      };
+      xhttp.open("GET", "/productDatas?productName=Pearl Millet", true);
+      xhttp.send();
+    })
+  </script>
+
+</body>
+</html>
