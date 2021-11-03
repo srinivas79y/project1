@@ -11,8 +11,8 @@
   min-height: 100vh;
   width:100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: space-between;
   font-family: 'Poppins', sans-serif !important;
 }  
 #carousel .carousel-item.boat{
@@ -280,7 +280,7 @@ a.btn.btn-primary.btn-block{
   body {
   font-family: poppins;
   margin: 0;
-  display: grid;
+  display: flex;
   font-size: 14px;
   }
   header p {
@@ -772,8 +772,8 @@ img {
 }
 
 .team-9 .team-img img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 275px;
     border-radius: 100%;
 }
 
